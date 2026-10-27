@@ -1,6 +1,6 @@
 namespace SolverSNE.Model
 {
-    interface IAllMethods<T>
+    interface IAllMethods
     {
         string MethodName { get; }
         double[] Solve(double[,] matrixA, double[] vectorB);
